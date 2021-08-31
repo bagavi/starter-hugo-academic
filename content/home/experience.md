@@ -22,29 +22,42 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: Business Intelligence Analyst
+    company: NexSys
+    company_url: 'https://www.nexsystech.com/'
+    company_logo: nexsys
+    location: Michigan
+    date_start: '2021-06-10'
     date_end: ''
-    description: |2-
-        Responsibilities include:
+    description:     |2-
+        * Formulate Business cases, measure their impact and plan development process
+        * Design tiered-pricing billing solitions
+        * Analyze and validate client transaction data
+  
+  - title: Business Analyst Intern
+    company: NexSys
+    company_url: 'https://www.nexsystech.com/'
+    company_logo: nexsys
+    location: Michigan
+    date_start: '2020-10-10'
+    date_end: '2021-04-10'
+    description:     |2-
+        * Onboard clients
+        * Develop test suits
+        * Monitor browser error KPIs
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Software Developer
+    company: Cognizant
     company_url: ''
-    company_logo: org-x
-    location: California
+    company_logo: cognizant
+    location: India
     date_start: '2016-01-01'
     date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    description: |2-
+        * Handle Dun and bradstreet company data
+        * Clean data and Automate data pipelines
+
 
 design:
-  columns: '2'
+  columns: '1'
 ---
